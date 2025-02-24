@@ -42,7 +42,7 @@ namespace SongDetailsCache.Structs {
 
 			characteristic = proto.characteristic;
 			difficulty = proto.difficulty;
-			stars = proto.starsT100 / 100f;
+			stars = 0; //proto.starsT100 / 100f;
 			starsBeatleader = proto.starsT100BL / 100f;
 			njs = proto.njsT100 / 100f;
 			bombs = proto.bombs;
